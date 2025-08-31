@@ -1,0 +1,31 @@
+# Core dependencies for model evaluation
+transformers>=4.21.0
+torch>=1.12.0
+numpy>=1.21.0
+pandas>=1.3.0
+
+# For StarCoder model
+accelerate>=0.20.0
+sentencepiece>=0.1.97
+
+# For CodeBERT and alternative models  
+tokenizers>=0.13.0
+
+# Educational analysis tools
+ast-tools>=0.1.0
+pylint>=2.15.0
+autopep8>=1.7.0
+
+# Jupyter notebook support (optional)
+jupyter>=1.0.0
+ipywidgets>=7.6.0
+
+# Data processing and visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+scikit-learn>=1.1.0
+
+# Testing and development
+pytest>=7.0.0
+black>=22.0.0
+flake8>=5.0.0
